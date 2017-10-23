@@ -1,0 +1,17 @@
+  744  mkdir git-drill-1
+  745  cd git-drill-1
+  746  git init
+  747  touch readme.md index.html style.css
+  748  git remote add origin https://github.com/chasfricke/ATS_2_A.git
+  749  git add index.html
+  750  git status
+  751  git commit -m "index.html commit"
+  752  nano readme.md
+  753  git add -A
+  754  git reset
+  755  touch app.js && mv ~/Desktop/cat\ on\ leash.gif .
+  756  git add -A
+  757  git commit -m "cat on leash"
+  758  git log
+  759  git push origin master
+  760  history | tail -n 18 > my-commands
